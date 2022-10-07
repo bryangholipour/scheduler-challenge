@@ -1,4 +1,4 @@
-var timeNow= moment().format("H:m A");
+var timeNow= moment().format("hh:m A");
 var dateNow= moment().format("MMM D");
 $("#now").text(timeNow);
 $("#date").text(dateNow);
@@ -13,8 +13,8 @@ $("#date").text(dateNow);
 //     document.getElementsByClassName(".future")
 // }
 
-// if (timeNow >= 9 && timeNow <= 10){
-
+// if (timeNow >= 19 && timeNow <= 20){
+//     document.getElementById("#saveBtn2")= (".present");
 // }
 
 
@@ -37,55 +37,55 @@ $("#date").text(dateNow);
 
 // if (timeNow >= 17 && timeNow <= 18)
 
+// if (timeNow >= 19 && timeNow <=20)
+
+// function saveData() {
+//     var eventText = localStorage.getitem("#eventText")
+// }
 
 
-function saveData() {
-    var eventText = localStorage.getitem("#eventText")
-}
+// var saveBtn2 = document.querySelector("#saveBtn2");
+// var saveBtn3 = document.querySelector("#saveBtn3");
+// var saveBtn4 = document.querySelector("#saveBtn4");
+// var saveBtn5 = document.querySelector("#saveBtn5");
+// var saveBtn6 = document.querySelector("#saveBtn6");
+// var saveBtn7 = document.querySelector("#saveBtn7");
+// var saveBtn8 = document.querySelector("#saveBtn8");
+// var saveBtn9 = document.querySelector("#saveBtn9");
 
+// var clickHandler3 = function (event) {
 
-var saveBtn2 = document.querySelector("#saveBtn2");
-var saveBtn3 = document.querySelector("#saveBtn3");
-var saveBtn4 = document.querySelector("#saveBtn4");
-var saveBtn5 = document.querySelector("#saveBtn5");
-var saveBtn6 = document.querySelector("#saveBtn6");
-var saveBtn7 = document.querySelector("#saveBtn7");
-var saveBtn8 = document.querySelector("#saveBtn8");
-var saveBtn9 = document.querySelector("#saveBtn9");
-
-var clickHandler3 = function (event) {
-
-}
+// }
 
 
 
-saveBtn1.addeventlistener("click" , function(event) {
-    event.preventDefault();
-    var saveBtn1 = document.querySelector("#eventText1").value;
-    localStorage.setItem("eventText1", saveBtn1)
-});
+// saveBtn1.addeventlistener("click" , function(event) {
+//     event.preventDefault();
+//     var saveBtn1 = document.querySelector("#eventText1").value;
+//     localStorage.setItem("eventText1", saveBtn1)
+// });
 
 
-saveBtn2.addeventlistener("click" , function(){
-    localstorage
-})
-saveBtn3.addeventlistener("click" ,clickHandler3 )
-saveBtn4.addeventlistener("click" , )
-saveBtn5.addeventlistener("click" , )
-saveBtn6.addeventlistener("click" , )
-saveBtn7.addeventlistener("click" , )
-saveBtn8.addeventlistener("click" , )
-saveBtn9.addeventlistener("click" , )
+// saveBtn2.addeventlistener("click" , function(){
+//     localstorage
+// })
+// saveBtn3.addeventlistener("click" ,clickHandler3 )
+// saveBtn4.addeventlistener("click" , )
+// saveBtn5.addeventlistener("click" , )
+// saveBtn6.addeventlistener("click" , )
+// saveBtn7.addeventlistener("click" , )
+// saveBtn8.addeventlistener("click" , )
+// saveBtn9.addeventlistener("click" , )
 
-fetchButton.addEventListener('click', getApi);
+// fetchButton.addEventListener('click', getApi);
 
 
-var emailInput = document.querySelector("#email");
-var passwordInput = document.querySelector("#password");
-var signUpButton = document.querySelector("#sign-up");
-var msgDiv = document.querySelector("#msg");
-var userEmailSpan = document.querySelector("#user-email");
-var userPasswordSpan = document.querySelector("#user-password");
+// var emailInput = document.querySelector("#email");
+// var passwordInput = document.querySelector("#password");
+// var signUpButton = document.querySelector("#sign-up");
+// var msgDiv = document.querySelector("#msg");
+// var userEmailSpan = document.querySelector("#user-email");
+// var userPasswordSpan = document.querySelector("#user-password");
 
 
 // renderLastRegistered();
